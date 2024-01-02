@@ -43,11 +43,14 @@ void funct(int i){
 */
 
 //printing number from n to 1 (backtrack)
+
+/*
 void funct(int i, int n){
     if(i > n) return;
     funct(i+1,n);
     cout << i;
 }
+*/
 
 int main(){
     //for name
@@ -61,5 +64,8 @@ int main(){
 
     //for printing from t to n (backtrack)
     //funct(5);
+
+    //for printing from n to 1 (backtrack)
+    //funct(1,5);
 
 }
